@@ -1,0 +1,43 @@
+@import '/node_modules/reset-css/reset.css';
+* {
+  box-sizing: border-box;
+}
+*::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  overflow-x: hidden;
+  background: #fff;
+  font-size: 14px;
+  line-height: 1;
+  font-family: "Inter", sans-serif;
+}
+body.no-scroll {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 30px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    max-width: 720px;
+  }
+}/*# sourceMappingURL=main.css.map */

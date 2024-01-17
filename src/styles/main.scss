@@ -1,0 +1,22 @@
+// Base
+// @import './base/reset.scss'
+@import '/node_modules/reset-css/reset.css';
+@import './base/fonts';
+// PLUGINS
+// @import '/node_modules/swiper/swiper-bundle.css';
+// @import '/node_modules/@fancyapps/ui/dist/fancybox.css';
+// @import '/node_modules/intl-tel-input/build/css/intlTelInput.css';
+
+// SETTINGS
+@import './settings/vars';
+
+// UTILS
+// @import './settings/grid';
+@import './settings/common';
+@import './settings/typo';
+
+// ANIMATIONS
+// @import './animations/pulse.scss';
+
+// COMPONENTS
+// Sections
