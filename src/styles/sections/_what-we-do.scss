@@ -1,0 +1,92 @@
+.what-we-do {
+    padding: 126px 0 120px;
+    margin: auto;
+    .container {
+        p {
+            color: #FF5C00;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%;
+            letter-spacing: 2.08px;
+            text-transform: uppercase;
+        }
+        .heading {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 55px;
+            h2 {
+                max-width: 688px;
+                color:#030302;
+                font-family: Inter;
+                font-size: 44px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 160%;
+            }
+            a {
+                height: 58px;
+                width: 169px;
+                display: inline-flex;
+                padding: 16px 40px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                border-radius: 15px;
+                background: #FF5C00;
+            }
+            .wraper {
+                display: flex;
+                justify-content: space-between;
+                text-align: start;
+                min-height: 196px;
+                article {
+                    h4 {
+                        color: #FF5C00;
+                        text-align: center;
+                        font-family: Inter;
+                        font-size: 40px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 140%;
+                        margin-bottom: 20px
+                    }
+                    h5 {
+                        margin-bottom: 16px;
+                        color: $primary;
+                        font-family: Inter;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 140%;
+                    }
+                    p {
+                        color: var(--Text, #838383);
+                        font-family: Inter;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 100%;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+            .bg-img {
+                margin: auto;
+                width: 100%;
+                max-height: 500px;
+                background-image: url(./../../img/what-we-do_Video-Box.jpg);
+                a {
+                    display: flex;
+                    padding: 16px 40px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    border-radius: 15px;
+                    background: #FF5C00;
+                }
+            }
+        }
+    }
+}

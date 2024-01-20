@@ -1,3 +1,74 @@
+// // Fonts
+// $font-main: 'Inter', sans-serif;
+// $font-nav: 'Poppins', sans-serif;
+// $font-btn: 'Onest', sans-serif;
+// $font_contacts: 'Sora', sans-serif;
+
+// // Colors
+// $accent: #FF5C00;
+// $primary: #030302;
+// $text: #838383;
+// $white: #FFFFFF;
+// $text-second: #838383;
+// $text-grey: #333333;
+
 .header {
     min-height: 164px;
+    padding-bottom: 15px;
+    .container {
+        padding: 0 15px;
+        // Container with phone number
+        .contact-data {
+            color: $primary;
+            font-size: 15px;
+            font-family: $font-main;
+            font-weight: 400;
+            line-height: 24px;
+            word-wrap: break-word;
+            display: flex;
+            justify-content: space-between;
+            p {
+                width: 50%;
+            }
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .logo {
+                margin: 20px 221px 30px 0;
+            }
+            .nav__content {
+
+                .nav-list {
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-right: 72px;
+
+                    li {
+                        margin: 10px;
+                    }
+                }
+            }
+            .call-btn {
+                display: inline-flex;
+                height: 50px;
+                padding: 16px 40px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                flex-shrink: 0;
+                border-radius: 15px;
+                background: var(--accent, #FF5C00);
+                a{
+                    color: $primary;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
 }
+

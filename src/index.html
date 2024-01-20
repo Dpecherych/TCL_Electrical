@@ -27,12 +27,13 @@
       <div class="container">
         <div class="contact-data">
           <p>24/7 Custom Service</p>
-          <p>Schedule Service: +1 (872) 201-1443</p>
+          <p class="p2">Schedule Service: +1 (872) 201-1443</p>
         </div>
-        <a class="logo" href="#">
-          <img src="./img/header-logo.png" alt="logo" />
-        </a>
+        <div class="horizontal-line"></div>
         <nav class="nav">
+          <a class="logo" href="#">
+          <img src="./img/header-logo.png" alt="logo" />
+          </a>
           <div class="nav__content">
             <ul class="nav-list">
               <li><a href="#" class="hover-target"> </a>Home</li>
@@ -41,9 +42,10 @@
               <li><a href="#" class="hover-target"></a>Careers</li>
               <li><a href="#" class="hover-target"></a>Contact Us</li>
             </ul>
+            <a href="#" class="call-btn">Call Now</a>
           </div>
         </nav>
-        <a href="#" class="call-btn">Call Now</a>
+        
       </div>
     </header>
     <main>
@@ -59,11 +61,11 @@
             <a href="#">Learn More</a>
             <ul>
               <li>
-                <p>30 +</p>
+                <p class="first-item">30 +</p>
                 <p>Technicians</p>
               </li>
               <li>
-                <p>1,000 +</p>
+                <p class="first-item">1,000 +</p>
                 <p>Satisfied Clients</p>
               </li>
             </ul>
@@ -73,7 +75,7 @@
               <p>tell Us About Your Project</p>
               <ul>
                 <li>
-                  <label for="comment">Tell Us About Your Project</label>
+                  <label class="form__textarea" for="comment">Tell Us About Your Project</label>
                   <textarea
                     name="comment"
                     id="comment"
@@ -81,7 +83,7 @@
                   ></textarea>
                 </li>
                 <li>
-                  <label for="name">Your Contact Details</label>
+                  <label class="name" for="name">Your Contact Details</label>
                   <input
                     type="text"
                     name="your_name"
@@ -90,20 +92,21 @@
                   />
                 </li>
                 <li>
-                  <input type="text" name="eamil" placeholder="Your Email" />
+                  <input class="email" type="text" name="eamil" placeholder="Your Email" />
                 </li>
                 <li>
-                  <input type="text" name="number" placeholder="Your Number" />
+                  <input class="number" type="text" name="number" placeholder="Your Number" />
                 </li>
                 <li>
                   <input
+                    class="question"
                     type="text"
                     name="question"
                     placeholder="How did you hear about us?"
                   />
                 </li>
                 <li>
-                  <input type="submit" value="Submit Form" />
+                  <input class="submit" type="submit" value="Submit Form" />
                 </li>
               </ul>
             </form>
@@ -113,11 +116,11 @@
       <section class="what-we-do">
         <div class="container">
           <p>What We Do</p>
-          <div>
+          <div class="heading">
             <h2>Lighting Up Your World Safely and Efficiently</h2>
             <a href="#">Learn More</a>
           </div>
-          <div>
+          <div class="wraper">
             <article>
               <h4>01</h4>
               <h5>Electrical Solutions</h5>
@@ -142,7 +145,7 @@
               </p>
             </article>
           </div>
-          <div>
+          <div class="bg-img">
             <a href="#">View Our Services</a>
           </div>
         </div>
@@ -150,7 +153,7 @@
       <section class="why-us">
         <div class="container">
           <p>Why Us</p>
-          <div>
+          <div class="header__wraper">
             <h2>Experience Makes the Difference!</h2>
             <ul>
               <li>
@@ -168,7 +171,7 @@
             </ul>
           </div>
           <img src="./img/what-we-do.jpg" alt="img" />
-          <div>
+          <div class="articles_wraper">
             <article>
               <img src="./img/dollar.svg" alt="img" />
               <h3>Up-Front Pricing</h3>
@@ -190,7 +193,7 @@
               </p>
             </article>
           </div>
-          <div>
+          <div class="contacts">
             <p>
               Let us show you how much you can start saving today! Call Today.
             </p>
@@ -200,29 +203,32 @@
       </section>
       <section class="clients">
         <div class="container">
-          <p>Testimonial</p>
-          <div>
+          <p class="hrader">Testimonial</p>
+          <div class="header-wraper">
             <h2>What Our Clients Say</h2>
-            <div>
+            <div class="header-item">
               <img src="./img/google_icon.png" alt="client img" />
               <p>Based on verified Reviews In Google Business</p>
               <a href="#">more testimonial</a>
-              <div></div>
             </div>
+          </div>
+          <div class="article-wraper">
             <article>
               <img src="./img/clients_1.jpg" alt="img" />
-              <h3>Alicia Murray</h3>
-              <h4>Service: Electrical</h4>
-              <img src="./img/Rating_client_1.svg" alt="raiting" />
-              <p>
-                The impact of TCL Electrical & Lighting's services on our
-                industrial facilities has been profound. Their energy-efficient
-                lighting solutions have significantly reduced our operating
-                costs, and their electrical work ensures everything runs
-                smoothly.
-              </p>
+              <div class="wraper">
+                <h3>Alicia Murray</h3>
+                <h4>Service: Electrical</h4>
+                <img src="./img/Rating_client_1.svg" alt="raiting" />
+                <p>
+                  The impact of TCL Electrical & Lighting's services on our
+                  industrial facilities has been profound. Their energy-efficient
+                  lighting solutions have significantly reduced our operating
+                  costs, and their electrical work ensures everything runs
+                  smoothly.
+                </p>
+              </div>
             </article>
-            <div>
+            <div class="articles-wraper">
               <article>
                 <img src="./img/clients_2.jpg" alt="client img" />
                 <div>
@@ -250,7 +256,6 @@
                 </p>
               </article>
             </div>
-          </div>
         </div>
       </section>
       <section class="customer-service">
