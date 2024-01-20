@@ -1,0 +1,27 @@
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  &__item {
+    display: grid;
+    gap: 14px;
+    &:not(:last-child) {
+      margin-right: 28px;
+      padding-right: 28px;
+    }
+  }
+  &__number {
+    color: #fff;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 44px */
+  }
+  &__text {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 16px */
+    text-transform: capitalize;
+  }
+}

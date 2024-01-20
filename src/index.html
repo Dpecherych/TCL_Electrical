@@ -36,11 +36,11 @@
           </a>
           <div class="nav__content">
             <ul class="nav-list">
-              <li><a href="#" class="hover-target"> </a>Home</li>
-              <li><a href="#" class="hover-target"></a>About Us</li>
-              <li><a href="#" class="hover-target"></a>Services</li>
-              <li><a href="#" class="hover-target"></a>Careers</li>
-              <li><a href="#" class="hover-target"></a>Contact Us</li>
+              <li><a href="#" class="hover-target">Home</a></li>
+              <li><a href="#" class="hover-target">About Us</a></li>
+              <li><a href="#" class="hover-target">Services</a></li>
+              <li><a href="#" class="hover-target">Careers</a></li>
+              <li><a href="#" class="hover-target">Contact Us</a></li>
             </ul>
             <a href="#" class="call-btn">Call Now</a>
           </div>
@@ -49,30 +49,51 @@
       </div>
     </header>
     <main>
+
       <section class="main-banner">
         <div class="container">
           <div class="banner-content">
-            <p>TCL Electrical And Lighting</p>
-            <h1>
+            <p class="main-banner__subtitle">TCL Electrical And Lighting</p>
+            <h1 class="main-baner__title">
               Leading in Electrical <br />
               and Lighting Solutions <br />
               since 1999.
             </h1>
-            <a href="#">Learn More</a>
-            <ul>
-              <li>
-                <p class="first-item">30 +</p>
-                <p>Technicians</p>
+            <a href="#" class="button main-banner__button">Learn More</a>
+            <ul class="stats main-banner__stats">
+              <li class="stats__item">
+                <span class="stats__number">30 +</span>
+                <span class="stats__text">Technicians</span>
               </li>
-              <li>
-                <p class="first-item">1,000 +</p>
-                <p>Satisfied Clients</p>
+              <li class="stats__item">
+                <span class="stats__number">1,000 +</span>
+                <span class="stats__text">Satisfied Clients</span>
               </li>
             </ul>
           </div>
           <div class="banner-form">
             <form class="form">
-              <p>tell Us About Your Project</p>
+              <div class="form__title">tell Us About Your Project</div>
+              <div class="form__group">
+                <div class="form__group-title">Tell Us About Your Project</div>
+                <div class="form__field">
+                  <textarea name="Message" class="form__textarea"></textarea>
+                </div>
+              </div>
+              <div class="form__group">
+                <div class="form__group-title">Your Contact Details</div>
+                <div class="form__field">
+                  <input
+                    type="text"
+                    name="your_name"
+                    placeholder="Your Name"
+                    id="name"
+                    class="form__input"
+                  />
+                </div>
+              </div>
+              <button class="form__button button">Submit Form</button>
+              <!-- <p>tell Us About Your Project</p>
               <ul>
                 <li>
                   <label class="form__textarea" for="comment">Tell Us About Your Project</label>
@@ -108,11 +129,12 @@
                 <li>
                   <input class="submit" type="submit" value="Submit Form" />
                 </li>
-              </ul>
+              </ul> -->
             </form>
           </div>
         </div>
       </section>
+
       <section class="what-we-do">
         <div class="container">
           <p>What We Do</p>
@@ -201,16 +223,18 @@
           </div>
         </div>
       </section>
-      <section class="clients">
+      <section class="clients-section">
         <div class="container">
           <p class="hrader">Testimonial</p>
           <div class="header-wraper">
             <h2>What Our Clients Say</h2>
-            <div class="header-item">
-              <img src="./img/google_icon.png" alt="client img" />
-              <p>Based on verified Reviews In Google Business</p>
-              <a href="#">more testimonial</a>
-            </div>
+            <a href="" class="ga-link">
+              <img src="./img/google_icon.png" alt="ga-link__img" />
+              <div class="ga-link__body">
+                <p class="ga-link__title">Based on verified Reviews In Google Business</p>
+                <div class="ga-link__link" >more testimonial</div>
+              </div>
+            </a>
           </div>
           <div class="article-wraper">
             <article>

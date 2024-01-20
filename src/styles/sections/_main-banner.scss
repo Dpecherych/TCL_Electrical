@@ -1,106 +1,136 @@
 // main banner
 .main-banner {
-    background-image: url(./../../img/banner_bg_img.jpg);
-    min-height: 762px;
-    max-width: 1440px;
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 460px;
+    gap: 54px;
+  }
+  &__subtitle {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 16px */
+    letter-spacing: 2.08px;
+    text-transform: uppercase;
+  }
+  &__title {
+  }
+  &__button {
+    margin-bottom: 40px;
+  }
+  &__stats {
+    margin-top: auto;
+  }
+}
 
-    .container {
-        padding: 84px 0 84px;
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 
-        //main-content
-        .banner-content {
-            p {
-                margin-bottom: 36px;
-                color: $white;
-                font-family: $font-main;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 600;
-                line-height: 100%;
-                /* 16px */
-                letter-spacing: 2.08px;
-                text-transform: uppercase;
-            }
+.main-banner {
+  background-image: url(../img/banner_bg_img.webp);
+  background-size: cover;
+  background-position: center;
 
-            h1 {
-                margin-bottom: 27px;
-                color: #FBFFFE;
+  .container {
+    padding: 84px 0 84px;
 
-                font-family: $font-main;
-                font-size: 55px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: 140%;
-                /* 77px */
-                text-transform: capitalize;
-            }
+    //main-content
+    .banner-content {
+      p {
+        margin-bottom: 36px;
+        color: $white;
+        font-family: $font-main;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%;
+        /* 16px */
+        letter-spacing: 2.08px;
+        text-transform: uppercase;
+      }
 
-            ul {
-                li {
-                    .first-item {
-                        color: #FFF;
-                        
-                            font-family: Inter;
-                            font-size: 44px;
-                            font-style: normal;
-                            font-weight: 700;
-                            line-height: 100%;
-                            /* 44px */
-                    }
-                    p {
-                        color: #FFF;
-                        font-family: Inter;
-                        font-size: 16px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: 100%;
-                        /* 16px */
-                        text-transform: capitalize;
-                    }
-                }
-            }
+      h1 {
+        margin-bottom: 27px;
+        color: #fbfffe;
+
+        font-family: $font-main;
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        /* 77px */
+        text-transform: capitalize;
+      }
+
+      ul {
+        li {
+          .first-item {
+            color: #fff;
+
+            font-family: Inter;
+            font-size: 44px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 100%;
+            /* 44px */
+          }
+          p {
+            color: #fff;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%;
+            /* 16px */
+            text-transform: capitalize;
+          }
         }
-
-        //form
-        .banner-form {
-            max-width: 463px;
-            max-height: 599px;
-            padding: 38px 60px 37px 50px;
-            margin: auto;
-            .form {
-                p {
-                    color: #000;
-                    font-family: Inter;
-                    font-size: 20px;
-                    font-style: normal;
-                    font-weight: 700;
-                    line-height: 140%;
-                    text-transform: capitalize;
-                }
-                ul {
-                    .form__textarea {
-
-                    }
-                    textarea {
-
-                    }
-                    .name {
-
-                    }
-                    .email {
-
-                    }
-                    .number {
-
-                    }
-                    .question {
-
-                    }
-                    .submit {
-
-                    }
-                }
-            }
-        }
+      }
     }
+
+    //form
+    .banner-form {
+      max-width: 463px;
+      max-height: 599px;
+      padding: 38px 60px 37px 50px;
+      margin: auto;
+      .form {
+        p {
+          color: #000;
+          font-family: Inter;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 140%;
+          text-transform: capitalize;
+        }
+        ul {
+          .form__textarea {
+          }
+          textarea {
+          }
+          .name {
+          }
+          .email {
+          }
+          .number {
+          }
+          .question {
+          }
+          .submit {
+          }
+        }
+      }
+    }
+  }
+}
+
+.form {
+  height: 600px;
+  background-color: #fff;
 }

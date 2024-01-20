@@ -1,0 +1,14 @@
+.button {
+  display: inline-flex;
+  height: 50px;
+  padding: 16px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: var(--accent, #ff5c00);
+  color: $primary;
+  text-decoration: none;
+  color: #fff;
+}

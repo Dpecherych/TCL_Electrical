@@ -1,0 +1,20 @@
+.form {
+  border-radius: 8px;
+  background: #fff;
+  padding: 40px 60px 40px 50px;
+  &__title {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 28px */
+    text-transform: capitalize;
+  }
+  &__group {
+  }
+  &__button {
+    border: none;
+    display: flex;
+    width: 100%;
+  }
+}

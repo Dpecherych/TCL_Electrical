@@ -1,0 +1,31 @@
+.section {
+  &__subtitle {
+    color: #ff5c00;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 16px */
+    letter-spacing: 2.08px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 80px;
+    &::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      width: 60px;
+      height: 1px;
+      background: #ff5c00;
+    }
+  }
+  &__title {
+    color: #0c0c0c;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 67.2px */
+  }
+}
